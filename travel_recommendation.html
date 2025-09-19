@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Bloom</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <h1>TravelBloom</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="/about.html">About us</a></li>
+        <li><a href="/contact.html">Contact us</a></li>
+      </ul>
+      <div class="search-container">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Enter a destination or keyword"
+        />
+        <button id="btnSearch">Search</button>
+        <button id="btnReset">Reset</button>
+      </div>
+    </nav>
+
+    <!-- social media links -->
+    <div class="social-links-container">
+      <ul>
+        <li>
+          <a href="#" class="social-icon facebook"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#" class="social-icon instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#" class="social-icon twitter"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#" class="social-icon youtube"
+            ><i class="fab fa-youtube"></i
+          ></a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- container -->
+    <div class="container">
+      <!-- home section connected with home link -->
+      <section class="home-section" id="home">
+        <h2>Explore exciting locations around the world</h2>
+        <p>
+          With travel bloom we are excited to support you in your journey of
+          exploring unique location around the world. We help you with bookings
+          for transport on land and in air, accommodation and tour packings at
+          your destination. <br />
+          <br />
+          Start your journey with us today!
+        </p>
+        <!-- booking button -->
+        <button id="btnBookNow">Book Now</button>
+      </section>
+      <!-- recommendations section -->
+      <section class="recommendations-section">
+        <h2>Use search option for recommendations</h2>
+        <div id="recommendations" class="recommendations-container">
+          <!-- Dynamic content will be inserted here -->
+        </div>
+      </section>
+    </div>
+    <script src="travel_recommendation.js"></script>
+  </body>
+</html>
